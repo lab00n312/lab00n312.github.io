@@ -18,7 +18,7 @@ header {
 }
 body {
   background-image:url(img/ava.jpg);
-  background-color: #000000;
+  background-color: #c7b39b;
   background-repeat:no-repeat;
   background-position: center center;
   background-size: 1366px;
@@ -35,7 +35,7 @@ body {
   left: 50%;
   margin-left: -683px;
   z-index: -3;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 #headper {
