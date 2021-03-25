@@ -14,18 +14,32 @@ header {
   height: 2.5em;
   line-height: 2.5em;
   font-size: 22pt;
-
+  z-index: 5
 }
 body {
   background-image:url(img/ava.jpg);
-  background-color: #c7b39b;
+  background-color: #000000;
   background-repeat:no-repeat;
   background-position: center center;
-  background-size: 1566px;
+  background-size: 1366px;
 
 }
 
+.gradik {
+  position: absolute;
+  width: 1366px;
+  height: 900px;
+  background-image: url(img/grad.jpg);
+  background-size: 1366px 1000px;
+  top: 0px;
+  left: 50%;
+  margin-left: -683px;
+  z-index: -3;
+  opacity: 0.3;
+}
+
 #headper {
+  position:relative;
   width: 1200px;
   margin: auto;
   background: #fefcea;
@@ -35,7 +49,7 @@ body {
 }
 
 #headperText {
-  color: #808080;
+  color: #606060;
   text-align: center;
   display: table-cell;
   vertical-align: bottom;
