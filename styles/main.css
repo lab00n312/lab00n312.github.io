@@ -21,16 +21,16 @@ body {
   background-color: #c7b39b;
   background-repeat:no-repeat;
   background-position: center center;
-  background-size: 1366px;
-
+  background-size: cover; у body
 }
 
 .gradik {
   position: absolute;
   width: 1366px;
-  height: 900px;
+  height: 100vh;
   background-image: url(img/grad.jpg);
-  background-size: 1366px 1000px;
+  background-repeat: no-repeat;
+  background-size: 1366px 100vh;
   top: 0px;
   left: 50%;
   margin-left: -683px;
